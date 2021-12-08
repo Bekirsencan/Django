@@ -39,6 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+    'django_filters',
+
+    'department',
+    'user',
+    'category',
+
+    'computers_and_accessories.category.computer',
+    'base_models.bm_computers_and_accessories',
 ]
 
 MIDDLEWARE = [

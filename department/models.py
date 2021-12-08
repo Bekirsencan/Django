@@ -7,4 +7,4 @@ class Department(models.Model):
     objects = models.Manager()
 
     class Meta:
-        abstract = True
+        db_table = 'Department'
