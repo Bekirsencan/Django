@@ -1,9 +1,14 @@
-from django_filters import rest_framework as filters
+import django_filters
 
 from .models import Computer
 
 
-class ComputerFilter(filters.FilterSet):
+class ComputerFilter(django_filters.FilterSet):
+
+    name = django_filters.CharFilter(field_name='product_name', lookup_expr='contains')
+    brand = django_filters.CharFilter(field_name='product_brand', lookup_expr='contains')
+    cpu = django_filters.CharFilter(field_name='cpu', lookup_expr='contains')
+
     class Meta:
         model = Computer
-        fields = ['product_name', 'product_brand', 'cpu', 'operating_system']
+        fields = ['name', 'product_brand', 'cpu', 'operating_system']

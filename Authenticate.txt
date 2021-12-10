@@ -1,0 +1,4 @@
+client_id = GqkJAXntqxfOAvfq728MHJ2CiGOLHhG8R96lNgpg
+client_secret = fewJfOuC8DtXuMpAvYWjQeRg0vWjEHtqmlla7G6azpZBsDKcoSvG2ucjwLxkOUQfgRxJWkKDKTcSJZdMsK8gVNsvHwwfIFTPr7E4JL53Ay9JOgRSpYuEj8iGIT4vWcNx
+client_type = Confidential
+grant_type = password
